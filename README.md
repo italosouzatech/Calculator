@@ -9,9 +9,9 @@ Uso
 - Abra o link do github pages
 
 Estrutura do projeto
-- src/page: página HTML principal.
-- src/dom: lógica JavaScript da calculadora.
-- src/style: arquivos de estilo.
+- root/: página HTML principal.
+- js/: lógica JavaScript da calculadora.
+- css: arquivos de estilo.
 - tests: (vazio) espaço para testes futuros.
 
 Como contribuir
