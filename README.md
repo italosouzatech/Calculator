@@ -6,9 +6,7 @@ Descrição
 - Ajuste automático do tamanho da fonte para resultados longos.
 
 Uso
-- Abra a página principal no navegador: [src/page/index.html](src/page/index.html)
-- A lógica está em: [src/dom/script.js](src/dom/script.js)
-- Estilos em: [src/style/styles.css](src/style/styles.css)
+- Abra o link do github pages
 
 Estrutura do projeto
 - src/page: página HTML principal.
