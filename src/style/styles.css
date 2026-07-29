@@ -1,0 +1,95 @@
+* {
+   margin: 0;
+   padding: 0; 
+}
+body {
+   font-family: Arial, Helvetica, sans-serif;
+   background-image: linear-gradient(45deg, #000, #5b125b);
+   height: 100vh;
+}
+header {
+   background-color: rgba(255, 255, 255, 1);
+   height: 50px;
+   border: none;
+   
+}
+.navigation {
+   display: flex;
+   gap: 10px;
+   font-size: 30px;
+   padding: 5px;
+}
+a {
+         text-decoration: none;
+         color: #5b125b;
+}
+#resultado {
+   color: #5b125b;
+   font-size: 40px;
+   text-align: left;
+   border-radius: 10px;
+   min-height: 50px;
+   width: 270px;
+   height: 70px;
+   max-width: 260px;
+   max-height:100px;
+   padding: 10px;
+   margin-top: 15px;
+   margin-bottom: 15px;
+   background-color: white;
+   overflow: hidden;
+   white-space: nowrap;
+   display: block;
+   line-height: 1.2;
+   box-sizing: border-box;
+}
+.calculadora {
+   position: absolute;
+   width: 300px;
+   height: 450px;
+   background-color: #000;
+   border-radius: 15px;
+   top: 20%;
+   left: 78%;
+   font-size: 30px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.botao, .operador, .espaço {
+   width: 60px;
+   height: 60px;
+   background-color: #5b125b;
+   border: none;
+   color: white;
+   font-size: 25px;
+   cursor: pointer;
+   border-radius: 10px;
+   margin: 3px;
+}
+table {
+   border-collapse: collapse;
+   margin-top: 5px;
+}
+td {
+   padding: 0px;
+}
+.botao:hover, .operador:hover, .espaço:hover {
+    background-color: white;
+    color: #5b125b;
+}
+.operador {
+   color: white; 
+}
+.espaço {
+   width: 130px;
+}
+.igual:hover {
+   background-color: white;
+   color: #5b125b;
+}
+.igual {
+   height: 124px;
+   background-color: #5b125b;
+   color: white;
+}
