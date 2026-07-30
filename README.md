@@ -6,7 +6,7 @@ Descrição
 - Ajuste automático do tamanho da fonte para resultados longos.
 
 Uso
-- Abra o link do github pages
+- Abra o link: https://italosouzatech.github.io/Calculator/
 
 Estrutura do projeto
 - root/: página HTML principal.
